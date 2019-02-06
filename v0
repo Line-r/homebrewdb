@@ -1,0 +1,50 @@
+[
+ {
+  "id": 1665,
+  "titleid": "000400000F800100",
+  "name": "FBI",
+  "description": "FBI - Open source title manager.",
+  "author": "Steveice10",
+  "size": 1151936,
+  "mtime": 1546393141,
+  "url": "https://github.com/Steveice10/FBI/releases/download/2.6.0/FBI.zip",
+  "create_time": "2019-01-02 11:53:47",
+  "update_time": "2019-01-02 11:53:47"
+ },
+ {
+  "id": 1624,
+  "titleid": "00040000002A5F00",
+  "name": "Super Street Fighter II - The New Challengers",
+  "description": "Super Street Fighter II - The New Challengers",
+  "author": "???",
+  "size": 10871744,
+  "mtime": 0,
+  "url": "https://drive.google.com/uc?export=download&id=1tUl3BP2jRdZI-94z9ZdgILv9w0jFcavF",
+  "create_time": "2018-12-03 15:58:04",
+  "update_time": "2019-02-06 10:11:12"
+ },
+ {
+  "id": 1580,
+  "titleid": "0004000000753800",
+  "name": "Pac-Man Collection",
+  "description": "Pac-Man Collection",
+  "author": "Namco",
+  "size": 4703168,
+  "mtime": 0,
+  "url": "https://drive.google.com/uc?export=download&id=1Rm_4ol48YiHC2mLkNMl-m4ZKQFTgKFbi",
+  "create_time": "2018-11-16 20:35:06",
+  "update_time": "2019-02-06 10:35:11"
+ },
+ {
+  "id": 1574,
+  "titleid": "000400000077E400",
+  "name": "Yeet",
+  "description": "Moto GP",
+  "author": "THQ",
+  "size": 4719552,
+  "mtime": 0,
+  "url": "https://drive.google.com/uc?export=download&id=17D5wZMLkfHttlq2QlikXqf6bcfArtfLC",
+  "create_time": "2018-11-13 16:42:04",
+  "update_time": "2019-02-06 10:10:20"
+ }
+]
