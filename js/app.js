@@ -6,7 +6,7 @@
   }]);
 
   titledbApp.controller('TitleListController', function TitleListController($scope, $http) {
-    $http.get('hhttps://raw.githubusercontent.com/Line-r/homebrewdb/master/v0.html').then(function(response){
+    $http.get('https://raw.githubusercontent.com/Line-r/homebrewdb/master/v0.html').then(function(response){
       $scope.titles = response.data.sort(function(a, b){
         if(a.name.toUpperCase() < b.name.toUpperCase()) return -1;
         if(a.name.toUpperCase() > b.name.toUpperCase()) return 1;
