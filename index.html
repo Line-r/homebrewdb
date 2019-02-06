@@ -70,55 +70,9 @@
       <div id="loading-bar-container"></div>
     </div>
   </nav>
-  <div class="container">
-    <div class="row" id="titles">
-      <div class="col-xs-12 col-sm-6 col-md-3" ng-repeat="title in titles | filter : searchQuery">
-        <div class="card title">
-          <div class="content">
-            <div class="media">
-              <div class="media-left">
-                <img ng-src="https://api.titledb.com/images/{{title.titleid}}.png" alt="{{title.name}}-icon" class="media-object hb-icon pull-left">
-              </div>
-              <div class="media-body">
-                <div class="media-heading">
-                  <span class="title-name text-primary text-uppercase" title="{{title.name}}">{{title.name}}</span>
-                </div>
-                <small title="by {{title.author}}">by {{title.author}}</small>
-              </div>
-            </div>
-            <br />
-            <p class="truncate" title="{{title.description}}">{{title.description}}</p>
-            <p class="text-muted">
-              <small>Size: {{title.size | filesize:2}}</small>
-              <br />
-              <small>ID: {{title.titleid}}</small>
-            </p>
-            <div class="collapse qr-collapse" id="qr-{{title.titleid}}"></div>
-          </div>
-          <div class="footer">
-            <a class="btn btn-success btn-simple" role="button" data-toggle="collapse" data-target="#qr-{{title.titleid}}" aria-expanded="false" aria-controls="qr-{{title.titleid}}">QR-CODE</a>
-            <a ng-href="{{title.url}}" title="{{title.url}}" class="btn btn-default btn-simple" role="button" data-toggle="tooltip" data-placement="top">DOWNLOAD</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer class="footer">
-    <div class="container-fluid">
-      <p class="text-muted">Made by <a href="#" onclick="window.open('https://github.com/Line-r/homebrewdb');">Line_r</a> and powered by /u/codepoet82's <a href="#" onclick="window.open('https://titledb.com');">TitleDB.com</a>.<br />All extracted graphics, logos, and trademarks are property of their respective owners.</p>
-      <p class="text-muted">Ver. 0.0.1</p>
-    </div>
-  </footer>
-</body>
+  </body>
 </head>
 <body>
-    <div class="container">
-        <img src="3ds.png" alt="Nintendo 3DS" style="width:100%"/>
-        <hr/>
-        <a href="homebrew">Homebrew List</a> -
-        <a href="devs">Developers List</a> -
-        <hr/>
-        <h2>List of 3DS homebrew</h2>
         <p>
             This is a full list containing all homebrew software released for the Nintendo 3DS.<br/>
             I'll try to keep it up-to-date whenever possible, feel free to contribute if you want to.<br/>
@@ -135,12 +89,13 @@
             <span class="icon"><img src=""/></span>
             <h1 id="title">-</h1>
             <div class="info">
-                <span class="screenshot"><img src=""/></span>
+                <span class="screenshot"><img id="screenshot"/></span>
                 <p><b>Author: </b><span id="author">-</span></p>
                 <p><b>Initial Release: </b><span id="release">-</span></p>
                 <p><b>Development: </b><span id="devst">-</span></p>
                 <p><b>Latest Version: </b><span id="version">-</span></p>
                 <p><b>External Link: </b><span id="site">-</span><br/></p>
+                <p><b>Screenshot: </b><span id="screenshot">-</span></p>
             </div>
             <p id="desc"><span class="desc">-</span><span class="show"></span></p>
             <span class="compat">Compatibility chart:</span>
