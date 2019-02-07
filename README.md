@@ -1,2 +1,2 @@
-<img src="https://i.imgur.com/eB26b7j.png">
+<img src="https://i.imgur.com/7ROrkat.png">
 ## A continuation of TitleDB
